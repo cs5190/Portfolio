@@ -1,0 +1,39 @@
+/* css rules*/
+/* selector: h1 */
+/* declaration block : code inside*/
+/* property : color */
+/* value: specifc color */
+h1{
+    color:white;
+
+}
+h2{
+    color:white;
+}
+h3{
+    color:white;
+    
+}
+h4{
+    color:white;
+
+}
+p{
+    color: beige;
+}
+body{
+    background-color: rgb(26, 24, 24);
+}
+.mainHeader{
+    color: crimson;
+}
+
+
+
+
+
+
+
+
+
+
