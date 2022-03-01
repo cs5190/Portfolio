@@ -3,6 +3,33 @@
 /* declaration block : code inside*/
 /* property : color */
 /* value: specifc color */
+html{
+    background-color: rgb(24, 24, 24);
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.7vh 5.597vw;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
 h1{
     color:white;
 
@@ -21,12 +48,24 @@ h4{
 p{
     color: beige;
 }
-body{
-    background-color: rgb(26, 24, 24);
+
+.palette_color_1{
+    color:#A24936;
 }
-.mainHeader{
-    color: crimson;
+.palette_color_2{
+    color:#618985;
 }
+.palette_color_3{
+    color:#181818;
+}
+.palette_color_4{
+    color:#D36135;
+}
+.palette_color_5{
+    color:#F8E5EE;
+}
+
+
 
 
 
