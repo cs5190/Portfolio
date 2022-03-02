@@ -1,0 +1,126 @@
+
+
+/*
+
+navigation is for the old style nav 
+bar at the top of the screen
+
+*/
+ul .navigation{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: #333;
+  }
+  
+  li .navigation{
+    float: left;
+    
+  }
+  
+  li a .navigation{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.7vh ;
+    text-decoration: none;
+  }
+  
+  li a:hover .navigation{
+    background-color: #111;
+  }
+
+/*
+
+Splits the screen in two
+
+*/
+
+.split {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    width: 30%;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    width: 70%;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 5%;
+  }
+  .top{
+      top: 5%;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  html
+  {
+    background-color: rgb(24, 24, 24);
+  }
+
+
+
+
+
+h1{
+    color:white;
+
+}
+h2{
+    color:white;
+}
+h3{
+    color:white;
+    
+}
+h4{
+    color:white;
+
+}
+p{
+    color: beige;
+}
+
+.palette_color_1{
+    color: #A24936;
+    background-color:#A24936;
+}
+.palette_color_2{
+    color:#618985;
+    background-color:#618985
+}
+.palette_color_3{
+    color:#181818;
+    background-color:#181818
+}
+.palette_color_4{
+    color:#D36135;
+    background-color:#D36135;
+}
+.palette_color_5{
+    color:#F8E5EE;
+    background-color:#F8E5EE;
+}
