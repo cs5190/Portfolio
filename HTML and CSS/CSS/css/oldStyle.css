@@ -1,8 +1,13 @@
-/* css rules*/
+/*
+DEPRECATED DEPRECATED
+
+css rules*/
 /* selector: h1 */
 /* declaration block : code inside*/
 /* property : color */
 /* value: specifc color */
+
+
 html{
     background-color: rgb(24, 24, 24);
 }

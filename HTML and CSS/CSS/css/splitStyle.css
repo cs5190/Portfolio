@@ -4,8 +4,6 @@
 
 navigation is for the old style nav 
 bar at the top of the screen
-
-*/
 ul .navigation{
     padding: 0;
     margin: 0;
@@ -30,6 +28,32 @@ ul .navigation{
     background-color: #111;
   }
 
+  some old .centered stuff
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 5%;
+
+
+*/
+main{
+  padding: 5%;
+}
+a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  
+  color: #A24936;
+}
+a:hover {
+  color: white;
+}
+
+.navigation{
+  color: #A24936;
+}
+
 /*
 
 Splits the screen in two
@@ -37,6 +61,8 @@ Splits the screen in two
 */
 
 .split {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 100%;
     position: fixed;
     z-index: 1;
@@ -53,18 +79,16 @@ Splits the screen in two
   
   /* Control the right side */
   .right {
+    
     right: 0;
     width: 70%;
   }
   
   /* If you want the content centered horizontally and vertically */
   .centered {
-    position: relative;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
-    padding: 5%;
+   
+    
   }
   .top{
       top: 5%;
@@ -78,9 +102,15 @@ Splits the screen in two
 
   html
   {
-    background-color: rgb(24, 24, 24);
+    
+    background-color:#181818
   }
 
+.centeredLeft{
+  text-align: center;
+  
+  
+}
 
 
 
