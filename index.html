@@ -12,10 +12,10 @@
 <body>
     <div id='page-container' class='d-flex'>
         <div id='style-selector' class='modern d-flex w-50 justify-content-center'>
-            <button type='button' class='selector-button w-25 p-1 active'>Modern</button>
-            <button type='button' class='selector-button w-25 p-1'>Utility</button>
-            <button type='button' class='selector-button w-25 p-1'>Artsy</button>
-            <button type='button' class='selector-button w-25 p-1'>Dated</button>
+            <button type='button' onclick='displayPageContent("modern");' id='modern-selector' class='selector-button w-25 p-1 active'>Modern</button>
+            <button type='button' onclick='displayPageContent("utility");' id='utility-selector' class='selector-button w-25 p-1'>Utility</button>
+            <button type='button' onclick='displayPageContent("artsy");' id='artsy-selector' class='selector-button w-25 p-1'>Artsy</button>
+            <button type='button' onclick='displayPageContent("dated");' id='dated-selector' class='selector-button w-25 p-1'>Dated</button>
         </div>
         <div id='page-contents-modern' class='d-flex'>
             <div id='modern-text-container' class='w-25 h-100'>
@@ -38,10 +38,13 @@
             </div>
         </div>
 
-        <div id='page-contents-utility' class='d-none'>
+        <div id='page-contents-utility' class='hidden'>
         </div>
-        <div id='page-contents-dated' class='d-none'>
+        <div id='page-contents-artsy' class='hidden'>
+        </div>
+        <div id='page-contents-dated' class='hidden'>
         </div>
     </div>
 </body>
+<script src="js/page-script.js"></script>
 </html>
