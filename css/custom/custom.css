@@ -30,7 +30,7 @@
     margin-top: 36px;
     margin-right: 36px;
     margin-bottom: 36px;
-    background-image: url(/website/resources/building.jpg);
+    background-image: url(/Portfolio/resources/building.jpg);
     background-size: cover
 }
 #modern-brand-name {
@@ -72,7 +72,7 @@
     margin-bottom: 8vh;
     margin-left: 3vw;
     margin-right: 3vw;
-    background-image: url(/website/resources/records.jpg);
+    background-image: url(/Portfolio/resources/records.jpg);
     background-size: cover;
 }
 #retail-brand-contents {
